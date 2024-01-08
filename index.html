@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    
+    <link rel="icon" type="png" href="team_photos/favicon.png"/>
+
+    <script src="script.js"></script>
+
+    <title>CommitCommando</title>
+  </head>
+  <body>
+    <div class="header">
+      <img class= "logo" src="team_photos/Cc_logo_01_Rajztábla 1.png" alt="logo">
+      <div class="sub_div">
+        <img class="schwarzi" src="team_photos/commando_schwarzenegger.png" alt="Schwarzenegger">
+      </div>
+    </div>
+    
+
+    <div class="container">
+      <div class="section">
+        <h2>Choose your soldier</h2>
+        <hr />
+        <div class="wrapper">
+          <div class="photo" id="petra">
+            <img src="team_photos/petra.jpg" alt= "Petra" class="shadow" />
+            <h3>Petra</h3>
+          </div>
+          <div class="photo" id="berni">
+            <img src="team_photos/berni.jpg" alt= "Berni" class="shadow"/>
+            <h3>Berni</h3>
+          </div>
+          <div class="photo" id="istvan">
+            <img src="team_photos/istvan.jpg" alt= "Istvan" class="shadow"/>
+            <h3>Istvan</h3>
+          </div>
+          <div class="photo" id="pali">
+            <img src="team_photos/pali.jpg" alt= "Pali" class="shadow"/>
+            <h3>Pali</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+            <div id="soldier" >
+              <h2>Petra</h2>
+              <p>Education: <span>Industrial Design Engineer</span></p>
+              <p>Work: <span>Optical Engineer</span></p>
+              <p>Motivation: <span>Having more perspective in working life</span></p>
+              <p>Favorite movie: <span>The Proposal</span></p>
+              <p>Hobbies: <span>Gardening, playing board games, sewing</span></p>
+              <p>Sign in kindergarten: <span>Smiling sun</span></p>
+              <p>
+                Specialty: <span>Most of my backpacks were designed and made by me
+              </p>
+              <br />
+            </div>
+
+            <div id="soldier2" >
+              <h2>Berni</h2>
+              <p>Education: <span>Judicial Administration Manager</span></p>
+              <p>Work: <span>Application Administrator</span></p>
+              <p>Motivation: <span>To live creativity</span></p>
+              <p>Favorite movie: <span>The Lincoln Lawyer</span></p>
+              <p>Hobbies: <span>Reading & playing table tennis</span></p>
+              <p>Sign in kindergarten: <span>Sun</span></p>
+              <p>Specialty: <span>I'm a nail artist</span></p>
+              <br />
+            </div>
+
+            <div id="soldier3" >
+              <h2>Istvan</h2>
+              <p>Education: <span>International Business and Logistik</span></p>
+              <p>Work: <span>Logistics Planner</span></p>
+              <p>Motivation: <span>Challenging, creative work with good job opportunities</span></p>
+              <p>Favorite movie: <span>Dungeons & Dragons: Honor Among Thieves</span></p>
+              <p>Hobbies: <span>Going to the gym, hiking, learning languages</span></p>
+              <p>Sign in kindergarten: <span>Pine tree</span></p>
+              <p>Specialty: <span>Driving a lot</span></p>
+              <br />
+            </div>
+
+            <div id="soldier4" >
+              <h2>Pali</h2>
+              <p>Education: <span>Environmental Scientist</span></p>
+              <p>Work: <span>Logistics Specialist</span></p>
+              <p>Motivation: <span>Happy life</span></p>
+              <p>Favorite movie: <span>Nincs ketto negy nelkul</span></p>
+              <p>Hobbies: <span>Playing Tarots</span></p>
+              <p>Sign in kindergarten: <span>Boat</span></p>
+              <p>Specialty: <span>Levitation</span></p>
+              <br />
+            </div>
+        </div>
+      
+
+      <div class="section">
+        <h2>Who is the person from Team1, who likes Yoga and meditation?</h2>
+        <hr />
+        <div class="other_team">
+          <button class="incorrect">Réka</button>
+          <button class="incorrect">Imola</button>
+          <button class="correct">Marci</button>
+          <button class="incorrect">P. Berni</button>
+
+          <span class = "reload"  onclick="window.location.reload ();">
+          <img
+          class="reloadbutton" src="team_photos/reload.png" alt="reloadButton">
+          </span>
+
+        </div>
+        <p id="feedback" class="answer"></p>
+      </div>
+
+      <div class="section">
+        <h2>Who is the person from Team1, who was a teacher before?</h2>
+        <hr />
+        <div class="other_team">
+          <button class="incorrect2">Réka</button>
+          <button class="correct2">Imola</button>
+          <button class="incorrect2">Marci</button>
+          <button class="incorrect2">P. Berni</button>
+    
+          <span class = "reload"  onclick="window.location.reload ();">
+          <img
+          class="reloadbutton" src="team_photos/reload.png" alt="reloadButton">
+          </span>
+    
+        </div>
+        <p id="feedback2" class="answer"></p>
+      </div>
+
+      <div class="section">
+        <h2>Who is the person from Team1, who loves cats?</h2>
+        <hr />
+        <div class="other_team">
+          <button class="incorrect3">Réka</button>
+          <button class="incorrect3">Imola</button>
+          <button class="incorrect3">Marci</button>
+          <button class="correct3">P. Berni</button>
+    
+          <span class = "reload"  onclick="window.location.reload ();">
+          <img
+          class="reloadbutton" src="team_photos/reload.png" alt="reloadButton">
+          </span>
+    
+        </div>
+        <p id="feedback3" class="answer"></p>
+      </div>
+
+      <div class="section">
+        <h2>Who is the person from Team1, who studies Geology?</h2>
+        <hr />
+        <div class="other_team">
+          <button class="correct4">Réka</button>
+          <button class="incorrect4">Imola</button>
+          <button class="incorrect4">Marci</button>
+          <button class="incorrect4">P. Berni</button>
+    
+          <span class = "reload"  onclick="window.location.reload ();">
+          <img
+          class="reloadbutton" src="team_photos/reload.png" alt="reloadButton">
+          </span>
+    
+        </div>
+        <p id="feedback4" class="answer"></p>
+      </div>
+
+    </div>
+  </body>
+</html>
